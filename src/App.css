@@ -3,3 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.navbar {
+  border-bottom: 1px solid black;
+  padding: 30px;
+  width: 100%;
+  display: fixed;
+  top: 0;
+}
