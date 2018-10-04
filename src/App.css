@@ -5,9 +5,28 @@
 }
 
 .navbar {
+  display: flex;
+  justify-content: space-between;
   border-bottom: 1px solid black;
   padding: 30px;
   width: 100%;
   display: fixed;
   top: 0;
+}
+
+.nav-items {
+  display: flex;
+  margin-right: 40px;
+  align-items: center;
+}
+
+.nav-items div {
+  margin: 0 30px 0 30px;
+  cursor: default;
+}
+
+.logo {
+  height: 50px;
+  width: 250px;
+  margin-left: 40px;
 }
