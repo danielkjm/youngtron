@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import '../App.css';
 
 class Nav extends Component {
   render() {
-    return <div />;
+    return (
+      <div className="navbar">
+        <img src="http://youngtron.com/wp-content/uploads/2015/06/youngtronlogo1.png" />
+      </div>
+    );
   }
 }
 
