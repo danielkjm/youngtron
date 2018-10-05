@@ -17,6 +17,7 @@
 .nav-items {
   display: flex;
   font-family: 'Montserrat', sans-serif;
+
   align-items: center;
 }
 
@@ -28,4 +29,9 @@
 .logo {
   height: 50px;
   width: 300px;
+}
+
+.carousel-img {
+  height: 400px;
+  width: 40px;
 }
