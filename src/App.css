@@ -21,9 +21,11 @@
   align-items: center;
 }
 
-.nav-items div {
+.nav-items .link {
   margin: 0 40px 0 40px;
   cursor: default;
+  text-decoration: none;
+  color: black;
 }
 
 .logo {
